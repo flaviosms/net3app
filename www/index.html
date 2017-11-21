@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" 
+         href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      <link rel = "stylesheet" href = "css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+      <script id="panel-init">
+        $(function() {
+            $( "body>[data-role='panel']" ).panel();
+        });
+    </script>
+   </head>
+   
+   <body>
+    <div data-role="panel" id="painel" data-position-fixed="true" data-position="left" data-display="overlay" data-theme="a">
+        
+        <a href="#page1" data-transition="flip" class="ui-btn ui-btn-a ui-icon-home ui-btn-icon-left">O Evento</a>
+        <a href="#page2" data-transition="flip" class="ui-btn ui-btn-a ui-icon-action ui-btn-icon-left">Participar</a>
+        <a href="#page3" data-transition="flip" class="ui-btn ui-btn-a ui-icon-user ui-btn-icon-left">Redes Sociais</a>
+        <a href="#page5" data-transition="flip" class="ui-btn ui-btn-a ui-icon-calendar ui-btn-icon-left">Programação</a>
+        <a href="#page6" data-transition="flip" class="ui-btn ui-btn-a ui-icon-location ui-btn-icon-left">Mapas</a>
+
+    </div><!-- /painel -->
+    <!-- PAGE 1 ------------------------------------------------ -->
+    <div data-role = "page" id = "page1">
+        <div data-role="header" data-position="fixed">
+            <h1>BITWEEK</h1>
+            <a href="#painel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-b ui-btn-inline">Menu</a>
+            </div><!-- /header -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+         
+         <div role = "main" class = "ui-content">
+            <h1>A Bitweek</h1>
+            <p>A Bit.Week é um evento de tecnologia e comunicação <br> que 
+              acontece no bloco do curso de Comunicação em <br>Mídias Digitais da UFPB,
+              em João Pessoa/PB,  durante <br> a   Semana Nacional de Ciência e Tecnologia (Semana CT)/MCTI. </p>
+           
+           <p> Organizado pelos alunos de Comunicação em <br> Mídias  Digitais – 
+             UFPB, vem com o objetivo de apresentar <br>  o potencial das novas mídias na
+             comunicação e suas  aplicações <br> no mercado de trabalho.
+             O evento vai contar com  palestras, <br> workshops, mesas redondas e exposições,
+             além de uma sala de <br> jogos onde haverá campeonatos de games, cardgames e RPG. </p>
+           <p> Não perca tempo, veja como participar:
+            <br>
+            <a href="#page2" class="ui-btn ui-btn-a">Participar</a></p>
+         </div>
+         </div>
+         
+        
+    </div>
+      <!-- PAGE 2 ------------------------------------------------ -->
+    <div data-role = "page" id = "page2">
+        <div data-role="header" data-position="fixed">
+            <h1>BITWEEK</h1>
+            <a href="#painel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-b ui-btn-inline">Menu</a>
+        </div><!-- /header -->
+
+         
+        <div role = "main" class = "ui-content">
+             <h1>Participe</h1>
+            <p> É muito fácil fazer parte deste evento e existem muitas maneiras de participar:
+             
+          <a href="#page41" class="ui-btn ui-btn-a">Assistir Palestras</a>
+          <br>
+            <a href="#page42" class="ui-btn ui-btn-a">Submeter trabalhos</a>
+            <br>
+            <a href="#page43" class="ui-btn ui-btn-a">Palestrar</a>
+            <br>
+            <a href="#page44" class="ui-btn ui-btn-a">Jogar</a>
+            <br>
+
+
+         
+            </p>
+            <img src="img/star_wars.gif" style="max-height: 100px;display:block;margin-left: auto;margin-right: auto;">
+        </div>
+    </div>
+    <!-- PAGE 3 ------------------------------------------------ -->
+    <div data-role = "page" id = "page3">
+        <div data-role="header" data-position="fixed">
+            <h1>BITWEEK</h1>
+            <a href="#painel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-b ui-btn-inline">Menu</a>
+        </div><!-- /header -->
+
+         
+         <div role = "main" class = "ui-content" style="text-align:center;"">
+            <h1>Siga Nossas Redes Sociais</h1>
+            <p>
+            <a href="#social1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social1.png" style="width:20%"></a>
+            <a href="#social2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social2.png" style="width:20%"></a>
+            <a href="#social3" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social3.png" style="width:20%"></a>
+            <a href="#social4" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social4.png" style="width:20%"></a>
+            <br>
+            <a href="#social5" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social5.png" style="width:20%"></a>
+            <a href="#social6" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social6.png" style="width:20%"></a>
+            <a href="#social7" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social7.jpg" style="width:20%"></a>
+            <a href="#social8" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social8.png" style="width:20%"></a>
+            <br>
+             <a href="#social9" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social9.png" style="width:20%"></a>
+            <a href="#social10" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social10.png" style="width:20%"></a>
+            <a href="#social11" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social11.png" style="width:20%"></a>
+            <a href="#social12" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/social12.png" style="width:20%"></a>
+            <br>
+            <br>
+            <br>
+            <a href="https://www.facebook.com/BitWeek/"><img src="img/facebook.png" style="width:20%"></a>
+            <a href="https://www.youtube.com/channel/UC0RngxZK6TmwD9pltdUXZ5Q"><img src="img/youtube.png" style="width:20%"></a>
+            <a href="https://www.instagram.com/bitweek/"><img src="img/instagram.png" style="width:20%"></a>
+            <a href="https://twitter.com/bitweek"><img src="img/twitter.png" style="width:20%"></a>
+            </p>
+            <div data-role="popup" id="social1" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social1.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social2" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social2.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social3" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social3.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social4" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social4.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social5" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social5.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social6" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social6.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social7" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social7.jpg" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social8" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social8.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social9" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social9.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social10" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social10.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social11" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social11.png" style="width:100%;">
+            </div>
+            <div data-role="popup" id="social12" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                <img class="popphoto" src="img/social12.png" style="width:100%;">
+            </div>
+
+
+        </div>
+    </div>
+   
+    <!-- PAGE 4 ------------------------------------------------ -->
+    <div data-role = "page" id = "page5">
+        <div data-role="header" data-position="fixed">
+            <h1>BITWEEK</h1>
+            <a href="#painel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-b ui-btn-inline">Menu</a>
+        </div><!-- /header -->
+
+         
+        <div role = "main" class = "ui-content">
+            <h1>Programação</h1>
+            <div data-role="tabs" id="tabs">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#dia1" data-ajax="false">Dia 1</a></li>
+                        <li><a href="#dia2" data-ajax="false">Dia 2</a></li>
+                        <li><a href="#dia3" data-ajax="false">Dia 3</a></li>
+                        <li><a href="#dia4" data-ajax="false">Dia 4</a></li>
+                        <li><a href="#dia5" data-ajax="false">Dia 5</a></li>
+                    </ul>
+                </div>
+                <div id="dia1" class="ui-body-d ui-content">
+                   <table data-role="table" id="movie-table" data-mode="reflow" class="ui-responsive">
+                        <thead>
+                        <tr>
+                        <th data-priority="1">Horário</th>                          
+                        <th data-priority="persist">Evento</th>
+                          <th data-priority="persist">Palestrante</th>
+                          <th data-priority="persist">Local</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>10:00</th>
+                                 <td>Palestra: jornalismo e gastronomia</td>
+                                <td>Palestrantes: Winnie Viana,
+                                  Luís Augusto Mendes e Patrícia Mendes.</td>
+                               <td>Sala: Luke Skywalker</td>
+                              
+                              
+                            </tr>
+                            <tr>
+                                <th>11:00</th>
+                               <td>Palestra: Protótipo de Jogo Felipeia</td>
+                                <td>Palestrantes: Matheus Antonus e Hícaro Felipe.</td>
+                               <td>Sala:  Darth Vader </td>
+                            </tr>
+                            <tr>
+                                <th>14:30</th>
+                                 <td> Palestra: Fotografia:
+                                   o contemporâneo, o desafio e o possível</td>
+                                <td>Palestrantes: Winnie Viana,
+                                  Luís Augusto Mendes e Patrícia Mendes.</td>
+                               <td>Sala: Luke Skywalker</td>
+                            </tr>
+                            <tr>
+                                <th>16:30</th>
+                                 <td> Palestra: Segurança cibernética como um direito humano</td>
+                                <td>Palestrante: Paulo César e Alyne de Souza.</td>
+                               <td>Sala:  Darth Vader</td>
+                            </tr>
+                            <tr>
+                               
+                            </tr>
+                            <tr>
+                               
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="dia2" class="ui-body-d ui-content"><img src="img/jaiminho.jpg"></div>
+                <div id="dia3" class="ui-body-d ui-content"><img src="img/jaiminho2.jpg"></div>
+                <div id="dia4" class="ui-body-d ui-content"><img src="img/jaiminho3.jpg"></div>
+                <div id="dia5" class="ui-body-d ui-content"><img src="img/jaiminho4.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <!-- PAGE 6 ------------------------------------------------ -->
+    <div data-role = "page" id = "page6">
+        <div data-role="header" data-position="fixed">
+            <h1>BITWEEK</h1>
+            <a href="#painel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-b ui-btn-inline">Menu</a>
+        </div><!-- /header -->
+
+         
+        <div role = "main" class = "ui-content">
+            <h1>Como chegar</h1>
+            <div data-role="tabs" id="tabs">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#mapa1" data-ajax="false">UFPB</a></li>
+                        <li><a href="#mapa2" data-ajax="false">DMID</a></li>
+                    </ul>
+                </div>
+                <div id="mapa1" class="ui-body-d ui-content" style="text-align:center";>
+                   <img src="img/mapa1.png" style="width:100%;">
+                   <a href="https://goo.gl/maps/cnQq5kK9QHP2"><img src="http://www.pvhc.net/img10/xmxvmgobwkvgbdeonndb.jpg" style="width:20%";display:inline;">
+                   </a>
+                </div>
+                <div id="mapa2" class="ui-body-d ui-content">
+                   <img src="img/mapa2.png" style="width:100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+   </body>
+</html>

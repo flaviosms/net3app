@@ -1,0 +1,32 @@
+/*Estilos em Geral*/
+[data-role="header"] {
+	background: black !important;
+}
+[data-role="header"] > h1 {
+	color:white;
+}
+[data-role="panel"] {
+	background: black !important;
+	border-right:10px inset #637174;
+}
+[role="main"] >h1:first-of-type{
+	text-align: center;
+}
+/*Fazer com que as tabelas sejam responsivas*/
+@media ( min-width: 40em ) {
+	/* Show the table header rows and set all cells to display: table-cell */
+	.my-custom-breakpoint td,
+	.my-custom-breakpoint th,
+	.my-custom-breakpoint tbody th,
+	.my-custom-breakpoint tbody td,
+	.my-custom-breakpoint thead td,
+	.my-custom-breakpoint thead th {
+		display: table-cell;
+		margin: 0;
+	}
+	/* Hide the labels in each cell */
+	.my-custom-breakpoint td .ui-table-cell-label,
+	.my-custom-breakpoint th .ui-table-cell-label {
+		display: none;
+	}
+}
